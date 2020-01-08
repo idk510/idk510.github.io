@@ -1,0 +1,34 @@
+body{
+    color:rgb(89,89,87);
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(89,89,87)
+}
+a{
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+li{
+    display: inline;
+}
+
+h1{
+    text-shadow: 1px 1px
+}
+div{
+    text-align: center;
+    border-color: rgb(255,0,0);
+    box-shadow:5px 5px 10px;
+}
+.RussianContainer{
+    text-align: center;
+    border-style: dotted;
+    border-color: rgb(0,0,0);
+}
+.JapaneseContainer{
+     text-align: center;
+    border-style: dashed;
+    border-color: rgb(0,0,0);
+}
+
