@@ -1,34 +1,40 @@
-body{
-    color:rgb(89,89,87);
-}
-ul{
-    list-style-type: none;
-    background-color: rgb(89,89,87)
-}
-a{
-    text-decoration: none;
-    color: rgb(255,255,255);
-}
-li{
-    display: inline;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-h1{
-    text-shadow: 1px 1px
-}
-div{
-    text-align: center;
-    border-color: rgb(255,0,0);
-    box-shadow:5px 5px 10px;
-}
-.RussianContainer{
-    text-align: center;
-    border-style: dotted;
-    border-color: rgb(0,0,0);
-}
-.JapaneseContainer{
-     text-align: center;
-    border-style: dashed;
-    border-color: rgb(0,0,0);
+li {
+  float: left;
 }
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+h2{
+  color:lightblue;
+  font-family: 'Great Vibes', cursive;
+  font-size:25px;
+}
+p{
+  color:lightgreen;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  
+}
+th{
+  color:white;
+}
+td{
+  color:white;
+}
